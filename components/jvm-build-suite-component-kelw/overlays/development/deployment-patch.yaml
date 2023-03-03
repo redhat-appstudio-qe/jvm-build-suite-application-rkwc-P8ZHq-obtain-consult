@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-kelw
+  namespace: jvm-build-bcou-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:4124d0a15e4d72be9dde051b5a3e871681c641f6104d4d650a0c377ee8d35ef2
+        name: container-image
+        resources: {}
+status: {}
