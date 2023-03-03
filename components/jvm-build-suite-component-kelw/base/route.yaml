@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-kelw
     app.kubernetes.io/part-of: jvm-build-suite-application-rkwc
-  name: jvm-build-suite-componentaufw
+  name: jvm-build-suite-componenthfeb
   namespace: jvm-build-bcou-tenant
 spec:
   port:
